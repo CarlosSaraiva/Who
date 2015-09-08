@@ -4,10 +4,10 @@ var router = express.Router();
 var sql = require('mssql');
 
 var config = {
-    user: 'Claudio',
-    password: 'afc@55216',
-    server: 'servagilus.dyndns.org',
-    database: 'dbDemo'
+    user: '',
+    password: '', 
+    server: '',
+    database:''
 }
 
 router.get('/', function (req, res) {
